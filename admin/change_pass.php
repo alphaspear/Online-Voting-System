@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>Welcome to online voting portal</title>
+        <script src="jscript/validation.js" type="text/javascript"></script>
         <link rel="stylesheet" href="css/style2.css" type="text/css">
     </head>
     <body>
