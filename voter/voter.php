@@ -42,6 +42,7 @@ while($mb=mysqli_fetch_object($member));
     <head>
         <title>Welcome to online voting portal</title>
         <link rel="stylesheet" href="css/style2.css" type="text/css">
+        <script src="jscript/validation.js" type="text/javascript"></script>
     </head>
     <body>
         

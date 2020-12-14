@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>Welcome to online voting portal</title>
+        <script src="jscript/validation.js" type="text/javascript"></script>
         <link rel="stylesheet" href="css/style2.css" type="text/css">
     </head>
     <body>
@@ -87,12 +88,12 @@ include "auth.php";
 </form>
 <script type="text/javascript">
 var frmvalidator = new Validator("myform"); 
-frmvalidator.addValidation("cpassword","req","Please enter Current Password"); 
-frmvalidator.addValidation("cpassword","maxlen=50");
-frmvalidator.addValidation("npassword","req","Please enter New Password"); 
-frmvalidator.addValidation("npassword","maxlen=50");
-frmvalidator.addValidation("cnpassword","req","Please enter Confirm New Password"); 
-frmvalidator.addValidation("cnpassword","maxlen=50");
+frmvalidator.addValidation("ques","req","Please enter a  question"); 
+frmvalidator.addValidation("opt1","req","Please enter the option"); 
+frmvalidator.addValidation("opt2","req","Please enter the option"); 
+frmvalidator.addValidation("opt3","req","Please enter the option"); 
+frmvalidator.addValidation("opt4","req","Please enter the option"); 
+
 </script>
 </div>
 
